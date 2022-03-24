@@ -13,7 +13,7 @@ export default function Catalog(){
     },[]);
 
     if(movies===null){
-        return("Loading")
+        return("Loading...")
     }
 
     return(
@@ -21,13 +21,13 @@ export default function Catalog(){
             <TitlePage color="#293845" title="Selecione o filme" fontWeight={400} top={35} bot={35}/>
             <CatalogContainer>
                {
-                   movies.map((movie, index)=>(
-                       <Movie posterURL={movie.posterURL} movieID={movie.id} title={movie.title} key={index}/>
-                       )
+                   movies.map((movie, index)=>
+                        (
+                        <Movie posterURL={movie.posterURL} movieID={movie.id} title={movie.title} key={index} />
+                        )
                     )
                }
             </CatalogContainer>
-    
         </>
     )
 }
