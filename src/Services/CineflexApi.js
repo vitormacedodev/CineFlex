@@ -9,3 +9,8 @@ export function getSessions(movieID){
     const promisse = axios.get(`https://mock-api.driven.com.br/api/v5/cineflex/movies/${movieID}/showtimes`);
     return promisse;
 }
+
+export function getSeats(sessionID){
+    const promisse = axios.get(`https://mock-api.driven.com.br/api/v5/cineflex/showtimes/${sessionID}/seats`);
+    return promisse;
+}

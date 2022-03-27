@@ -17,7 +17,7 @@ export default function Catalog(){
     }
 
     return(
-        <>
+        <main>
             <TitlePage color="#293845" title="Selecione o filme" fontWeight={400} top={35} bot={35}/>
             <CatalogContainer>
                {
@@ -28,6 +28,6 @@ export default function Catalog(){
                     )
                }
             </CatalogContainer>
-        </>
+        </main>
     )
 }

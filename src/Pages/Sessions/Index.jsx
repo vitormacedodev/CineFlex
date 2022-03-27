@@ -19,7 +19,7 @@ export default function Sessions(){
     }
     console.log(movieSessions)
     return(
-        <>
+        <main>
             <TitlePage color="#293845" title="Selecione a Sessão" fontWeight={400} top={35} bot={35} />
             {
                 movieSessions.days.map((day, index)=>(
@@ -27,6 +27,6 @@ export default function Sessions(){
                 ))
             }
             <Poster title={movieSessions.title} posterURL={movieSessions.posterURL} />
-        </>
+        </main>
     )
 }
