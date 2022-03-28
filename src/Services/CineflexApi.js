@@ -14,3 +14,8 @@ export function getSeats(sessionID){
     const promisse = axios.get(`https://mock-api.driven.com.br/api/v5/cineflex/showtimes/${sessionID}/seats`);
     return promisse;
 }
+
+export function postData(data){
+    const promisse = axios.post(`https://mock-api.driven.com.br/api/v5/cineflex/seats/book-many`, data);
+    return promisse;
+}

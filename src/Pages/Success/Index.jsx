@@ -1,8 +1,10 @@
 import TitlePage from "../../Components/TitlePage/Index"
 import styled from "styled-components"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, useLocation } from "react-router-dom"
 export default function Success() {
     const navigate = useNavigate();
+    const location = useLocation();
+    console.log(location, ' INFOS');
     return (
         <>
             <main>
@@ -10,16 +12,16 @@ export default function Success() {
                 <FinalBox>
                     <div>
                         <h1>Filme e sessão</h1>
-                        <h2>FILME NOME</h2>
-                        <h2>DATA E HORA</h2>
+                        <h2>{location.state.seats.movie.title}</h2>
+                        <h2>{location.state.seats.day.date} - {location.state.seats.name} </h2>
                     </div>
                     <div>
-                        <h1>INGRESSOS</h1>
+                        <h1>Ingressos</h1>
                         <h2>ASSENTO1</h2>
                         <h2>ASSENTO2</h2>
                     </div>
                     <div>
-                        <h1>COMPRADOR</h1>
+                        <h1>Comprador</h1>
                         <h2>Nome: a9shiuahsuas</h2>
                         <h2>CPF: aiusghaiuysgyais</h2>
                     </div>

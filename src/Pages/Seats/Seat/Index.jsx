@@ -5,12 +5,13 @@ export default function Seat({ id, name, isAvailable, setSelecteds, selectedSeat
     if(selectedSeats.includes(id)){
         selected = true
     }
-    
-    function process(){
-       if(selectedSeats.includes(id)){
-           selectedSeats.splice(selectedSeats.indexOf(id), 1)
-       }
-           setSelecteds([...selectedSeats, id])
+    function process() {
+        if (selectedSeats.includes(id)) {
+            selectedSeats.splice(selectedSeats.indexOf(id), 1)
+            setSelecteds([...selectedSeats]);
+            return;
+        }
+        setSelecteds([...selectedSeats, id]);
     }
     
     return(
