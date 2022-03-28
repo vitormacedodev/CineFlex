@@ -21,9 +21,9 @@ const TitleContainer = styled.header`
 
     h2{
 
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
-        font-weight:${props=>props.fontWeight}px;
+        font-weight:${props=>props.fontWeight};
         font-size: 24px;
         
         color: ${props => props.color};
