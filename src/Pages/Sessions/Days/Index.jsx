@@ -23,9 +23,11 @@ export default function Days({id, weekday, date, showtimes}){
 
 const Day = styled.section`
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 7px 7px;
 
+    align-items: start;
     padding: 0 25px;
 
     h2{
