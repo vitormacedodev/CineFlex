@@ -4,7 +4,6 @@ import { useNavigate, useLocation } from "react-router-dom"
 export default function Success() {
     const navigate = useNavigate();
     const location = useLocation();
-    console.log(location, ' INFOS');
     return (
         <>
             <main>
@@ -17,13 +16,12 @@ export default function Success() {
                     </div>
                     <div>
                         <h1>Ingressos</h1>
-                        <h2>ASSENTO1</h2>
-                        <h2>ASSENTO2</h2>
+                        {location.state.buySeats.map((b)=><h2>Assento: {b.name}</h2>)}
                     </div>
                     <div>
                         <h1>Comprador</h1>
-                        <h2>Nome: a9shiuahsuas</h2>
-                        <h2>CPF: aiusghaiuysgyais</h2>
+                        <h2>Nome: {location.state.buyerName}</h2>
+                        <h2>CPF: {location.state.cpf}</h2>
                     </div>
                 </FinalBox>
                 <ButtonBox>

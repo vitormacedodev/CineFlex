@@ -18,9 +18,16 @@ export default function Seats() {
         if((selectedSeats.length!==0)&&(buyerName.length!==0)&&(cpf.length>=11)){
             let data={ids:selectedSeats, name:`${buyerName}`,  cpf:`${cpf}`}
             const promisse = postData(data);
-            promisse.then((response)=>{console.log('TESTE');
-                navigate("/success", { state: {cpf, buyerName, selectedSeats, seats} })
+            promisse.then((response)=>{
+                navigate("/success", { state: 
+                    {
+                        cpf, 
+                        buyerName, 
+                        seats, 
+                        buySeats:seats.seats.filter((s)=>selectedSeats.includes(s.id))} 
+                    });
             })
+            promisse.catch(error=>console.log("ERRO!", error));
         }
     }
 
