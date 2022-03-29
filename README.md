@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-[Create React App](https://cine-flex-eight.vercel.app/).
+# Deploy
+
+https://cine-flex-eight.vercel.app/.
 
 ## Available Scripts
 
