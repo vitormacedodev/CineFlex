@@ -2,7 +2,7 @@
 
 # Deploy
 
-https://cine-flex-eight.vercel.app/.
+https://cine-flex-eight.vercel.app/
 
 ## Available Scripts
 
