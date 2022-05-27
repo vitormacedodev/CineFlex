@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Catalog from "./Pages/Catalog/Index";
 import Sessions from "./Pages/Sessions/Index";
 import Seats from "./Pages/Seats/Index";
