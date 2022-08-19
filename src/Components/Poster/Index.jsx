@@ -28,7 +28,6 @@ const PosterBox = styled.footer`
     bottom: 0;
     background-color: #9EADBA;;
     border: 1px solid #9EADBA;
-
 `
 
 const PosterDiv = styled.div`
@@ -38,7 +37,6 @@ const PosterDiv = styled.div`
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-
     img{
         width: 48px;
         height: 72px;
