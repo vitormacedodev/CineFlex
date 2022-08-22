@@ -7,7 +7,6 @@ export const SeatsContainer = styled.section`
     flex-wrap: wrap;
     justify-content: center;
     gap: 17px 7px;
-
     margin-left: auto;
     margin-right: auto;
 `
@@ -20,7 +19,6 @@ export const LegendBox = styled.div`
     align-items: start;
     justify-content: center;
     gap: 35px;
-    
     div{
         display: flex;
         flex-direction: column;
@@ -36,7 +34,6 @@ export const LegendBox = styled.div`
 export const LegendSelect = styled.div`
     width: 24px;
     height: 24px;
-
     background: #8DD7CF;
     border: 1px solid #1AAE9E;
     box-sizing: border-box;
@@ -45,7 +42,6 @@ export const LegendSelect = styled.div`
 export const LegendUnavailable = styled.div`
     width: 24px;
     height: 24px;
-
     background: #FBE192;
     border: 1px solid #F7C52B;
     box-sizing: border-box;
@@ -54,7 +50,6 @@ export const LegendUnavailable = styled.div`
 export const LegendAvailable = styled.div`
     width: 24px;
     height: 24px;
-
     background: #C3CFD9;
     border: 1px solid #7B8B99;
     box-sizing: border-box;
@@ -67,7 +62,6 @@ export const InputContainer = styled.form`
     justify-content: flex-start;
     align-items: center;
     gap: 7px;
-
     input{
         font-size: 18px;
         width: 327px;
@@ -78,14 +72,12 @@ export const InputContainer = styled.form`
         border: 1px solid #D5D5D5;
         border-radius: 3px;
     }
-
     input::placeholder{
         font-family: 'Roboto', sans-serif;
         font-style: italic;
         font-size: 18px;
         color:#AFAFAF
     } 
-
     button{
         margin-top: 28px;
         font-size: 18px;
@@ -96,7 +88,6 @@ export const InputContainer = styled.form`
         background: #E8833A;
         border-radius: 3px;
     }
-
     div{
         width: 327px;
         display: flex;
