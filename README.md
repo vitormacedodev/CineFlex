@@ -1,5 +1,9 @@
 # Sobre o projeto
- O Cineflex é um divertido projeto que simula um ambiente de compra de ingressos
+ O Cineflex é um divertido projeto que simula um ambiente de gerenciamento de um cinema. Com um sistema de compra e reserva de ingressos.
+
+## Stack
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 # Deploy https://cine-flex-eight.vercel.app/
 
@@ -12,7 +16,7 @@
 
 
 
-## Available Scripts
+## Scripts
 
 In the project directory, you can run:
 
