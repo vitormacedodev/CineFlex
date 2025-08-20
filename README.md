@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# Sobre o projeto
+ O Cineflex é um divertido projeto que simula um ambiente de compra de ingressos
 
-# Deploy
+# Deploy https://cine-flex-eight.vercel.app/
 
-https://cine-flex-eight.vercel.app/
+## Preview
+
+<img width="375" height="813" alt="catalogo" src="https://github.com/user-attachments/assets/75786fd8-e7c8-4353-8788-2430eb47d193" />
+<img width="375" height="814" alt="Sessões" src="https://github.com/user-attachments/assets/82985827-5861-4880-978e-76f227a1a24a" />
+<img width="377" height="814" alt="sessão" src="https://github.com/user-attachments/assets/02427670-af6b-4816-b775-63c8c54f801c" />
+<img width="377" height="811" alt="Ingressos" src="https://github.com/user-attachments/assets/8eb846d4-af40-4acd-96b7-bcd9a9102269" />
+
+
 
 ## Available Scripts
 
